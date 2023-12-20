@@ -36,6 +36,7 @@ tomcat_prod_modes:
  - ['work', '0750', '0640']
  - ['webapps', '0750', '0640']
 
+tomcat_configure_default_apps: True
 tomcat_allow_manager_access_only_from_localhost: False
 tomcat_allow_host_manager_access_only_from_localhost: False
 
