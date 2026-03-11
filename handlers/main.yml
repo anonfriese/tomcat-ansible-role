@@ -6,3 +6,4 @@
     name: "{{ tomcat_service_name }}"
     state: restarted
     daemon_reload: yes
+  failed_when: false
